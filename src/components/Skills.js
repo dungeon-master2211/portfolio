@@ -6,7 +6,7 @@ const skillsData = [<DiPython/>,<DiJavascript1/>,<DiReact/>,<SiFlask/>,<DiNodejs
 const Skills = () => {
   const theme = useContext(ThemeContext)
   return (
-    <div className={`skill skill-${theme}`}>
+    <div className={`skill skill-${theme}`} id="skill">
       <h2 className='section-title'>Skills</h2>
       <section className='skill-section'>
         {skillsData.map((item,index)=><span key={index} className={`skill-logo skill-logo-${theme}`}>

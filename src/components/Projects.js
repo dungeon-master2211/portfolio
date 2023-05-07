@@ -23,7 +23,7 @@ const Projects = () => {
   }
   ]
   return (
-    <div className={`project project-${theme}`}>
+    <div className={`project project-${theme}`} id="project">
       <h2 className='section-title'>Projects</h2>
       <section className={`project-section project-section-${theme}`}>
         {projectData.map((item,index)=>{

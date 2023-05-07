@@ -9,6 +9,11 @@ const Qualification = () => {
         experience:'2021-present'
     },
     {
+        name:'Madan Mohan Malaviya University of Technolgy',
+        role:'8.01 CGPA - B.Tech.(ECE)',
+        experience:'2017-2021'
+    },
+    {
         name:'DALIMSS Varanasi(Intermediate)',
         role:'83.4%',
         experience:'2016'
@@ -18,7 +23,7 @@ const Qualification = () => {
             <h2 className='section-title'>Experience</h2>
             <section className={`experience-section experience-section-${theme}`}>
                 <div className='lining-section'>
-                    {Array(2).fill(0).map((item,index)=>{
+                    {Array(3).fill(0).map((item,index)=>{
                         return <div className='line-wrapper' key={index}>
                         <div className='circle'></div>
                         <div className='line'></div>

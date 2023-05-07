@@ -4,7 +4,8 @@ import Developer from "../assets/developer.gif"
 const About = () => {
   const theme = useContext(ThemeContext)
   return (
-    <div className={`about about-${theme}`}>
+    <div className={`about about-${theme}`} id="about">
+      
       <section className={`about-card about-card-${theme}`}>
         <h2 className='section-title'>About Me</h2>
         <section className='about-description'>

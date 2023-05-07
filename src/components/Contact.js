@@ -4,7 +4,7 @@ import { ThemeContext } from '../utils/Theme'
 const Contact = () => {
   const theme = useContext(ThemeContext)
   return (
-    <div className={`contact contact-${theme}`}>
+    <div className={`contact contact-${theme}`} id="contact">
       <h2 className='section-title'>Contact</h2>
       <form>
         <input type='text' className='name' placeholder='Name'></input>
